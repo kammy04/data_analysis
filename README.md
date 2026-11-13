@@ -8,10 +8,10 @@ along, plus the practice exercises, kept topic by topic as a reference.
 | [`Uno/Notes.ipynb`](Uno/Notes.ipynb) | What data analysis is and the tools used (Python, Jupyter, pandas, NumPy, matplotlib) |
 | [`Uno/Lecture 1.ipynb`](Uno/Lecture%201.ipynb) | Real-world sales data in pandas: loading a CSV, adding calculated columns (cost, revenue), filtering by state, country and age group, group means |
 | [`Uno/Lecture 2.ipynb`](Uno/Lecture%202.ipynb) | SQL + pandas on the **Sakila** DVD-rental database: joins, filters and aggregations (rentals per customer, highest replacement cost, rentals by rating) |
-| [`Uno/Pandas Exercises 1.ipynb`](Uno/Pandas%20Exercises%201.ipynb) | Pandas practice: Series and DataFrames, indexing, selection, filtering, summary statistics |
-| [`Uno/Exercises 2.ipynb`](Uno/Exercises%202.ipynb) | Further practice questions (in progress) |
+| [`Uno/Pandas Exercises 1.ipynb`](Uno/Pandas%20Exercises%201.ipynb) | Exploring the sales data: summary statistics and distributions of customer age, order quantity and more, with histograms, box plots and density plots |
+| [`Uno/Exercises 2.ipynb`](Uno/Exercises%202.ipynb) | Exploring Sakila film rentals: rental duration, rental rate, replacement cost and ratings with bar, pie, box and density plots (in progress) |
 
-**Data** (`Uno/data/`): `sales_data.csv` (bike-shop sales, ~113k rows) and `sakila database.db` (MySQL's
+**Data** (`Uno/data/`): `sales_data.csv` (bike-shop sales of bikes, accessories and clothing, ~113k rows) and `sakila database.db` (MySQL's
 Sakila sample database in SQLite form).
 
 **Run:** `pip install pandas matplotlib jupyter`, then `jupyter notebook` from the repo folder.
